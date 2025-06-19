@@ -1,6 +1,6 @@
 # www
 
-New frontend. I decided to go for a single-page application in order to 
+New frontend. I decided to go for a single-page application in order to better modularize my code and learn something fun.
 
 ## Quick start
 
@@ -33,10 +33,10 @@ Docker commands:
 Build
 
 ```bash
-docker build -t web/www -t web/www:${YYYY}.${MM}.${DD}.${BUILD} .
+docker build -t web/www -t web/www:$(date +%Y.%m.%d).${BUILD} .
 aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 505499692157.dkr.ecr.us-east-2.amazonaws.com
-docker tag web/www:${YYYY}.${MM}.${DD}.${BUILD} 505499692157.dkr.ecr.us-east-2.amazonaws.com/web/www:${YYYY}.${MM}.${DD}.${BUILD}
-docker push 505499692157.dkr.ecr.us-east-2.amazonaws.com/web/www:${YYYY}.${MM}.${DD}.${BUILD}
+docker tag web/www:$(date +%Y.%m.%d).${BUILD} 505499692157.dkr.ecr.us-east-2.amazonaws.com/web/www:$(date +%Y.%m.%d).${BUILD}
+docker push 505499692157.dkr.ecr.us-east-2.amazonaws.com/web/www:$(date +%Y.%m.%d).${BUILD}
 ```
 
 Run
@@ -44,20 +44,6 @@ Run
 ```bash
 docker run --rm -p 80:80 web/www
 ```
-
-Quick start
-
-```bash
-docker compose up -d
-```
-
-End quick start
-
-```bash
-docker compose down
-```
-
-Push out to 
 
 ## References
 
