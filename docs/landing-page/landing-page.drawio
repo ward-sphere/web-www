@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="2">
+  <diagram name="Web" id="_wpzoka94_TExpvGmEec">
+    <mxGraphModel dx="1426" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="550" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="550" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-3" value="logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Mason Hicks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-6" value="Software Engineer&lt;div&gt;Novice Software Architect&lt;div&gt;Mathematication&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-7" value="Headshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-8" value="" style="endArrow=none;html=1;rounded=0;elbow=horizontal;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="430" as="sourcePoint" />
+            <mxPoint x="710" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-9" value="initial page border" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;" vertex="1" connectable="0" parent="0ef8-Ci_EfDSqA4ijWHD-8">
+          <mxGeometry x="0.0449" relative="1" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-11" value="About Me brief" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="470" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-12" value="(Later)&lt;div&gt;Project Link based on Clickthrough Rate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-13" value="(Later) More Projects" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-14" value="Current Experience brief" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="660" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ef8-Ci_EfDSqA4ijWHD-15" value="(Later) More Experience" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="720" width="430" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Mobile" id="gc-K2qyKembQ6t5XfPBX">
+    <mxGraphModel dx="1426" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-0" />
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-1" parent="p2_CSy7hxZhme7P7UbrF-0" />
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="160" y="150" width="260" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="160" y="150" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-4" value="logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="170" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Mason Hicks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="200" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-6" value="Software Engineer&lt;div&gt;Novice Software Architect&lt;div&gt;Mathematication&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="200" y="260" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-7" value="Headshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="245" y="340" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-10" value="About Me brief" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="200" y="470" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-11" value="(Later)&lt;div&gt;Project Link based on Clickthrough Rate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="230" y="700" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-12" value="(Later) More Projects" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="230" y="820" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-13" value="Current Experience brief" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="200" y="900" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_CSy7hxZhme7P7UbrF-14" value="(Later) More Experience" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="p2_CSy7hxZhme7P7UbrF-1">
+          <mxGeometry x="200" y="1050" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
