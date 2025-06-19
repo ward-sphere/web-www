@@ -1,0 +1,23 @@
+.PrimaryNav {
+    /* nav dimensions; 10% view height, whole width */
+    height: 10vh;
+    width: 100%;
+
+    /* set nav colors */
+    background-color: #656176; /* fallback */
+    background-image: linear-gradient(to bottom right, #656176, #334139);
+}
+
+.PrimaryNav-content {
+    /* nav content dimensions */
+    height: calc(100% - 2em);
+    
+    /* set nav as row-style flexbox with logo and links */
+    display: flex;
+    flex-direction: row;
+    
+    /* nav content spacing */
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
+}

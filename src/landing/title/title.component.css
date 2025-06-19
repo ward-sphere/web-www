@@ -1,0 +1,72 @@
+.Title {
+  /* fix title to take at least whole screen */
+  min-height: 90vh;
+  min-width: 100%;
+  
+  /* title as simple flexbox with one item */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Title-content {
+  /* content dimensions */
+  min-width: 50%; max-width: 80%;
+  min-height: 37vh; max-height: 100%;
+
+  /* title content is row-style flexbox with header and headshot */
+  display: flex;
+  flex-direction: row;
+
+  /* center contents in center of remaining screen */
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.Title-header {
+  /* header dimensions */
+  min-width: 33%;
+  max-width: 80%;
+
+  /* header as col-style flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Title-headshot {
+  /* headshot dimensions */
+  max-width: 40%;
+
+  /* solid border around headshot */
+  background-color: #1A1F16;
+  border-radius: 50%;
+  border: 5px solid #F8F1FF;
+}
+
+.Title-header-name {
+  /* title font */
+  font-size: 3em;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.Title-header-subheader {
+  /* title font */
+  font-size: 1.25em;
+  font-family: "Monaco", "Courier New", monospace;
+}
+
+@media (max-width: 600px) {
+  .Title-content {
+    /* title becomes column-style flex box for small screens */
+    flex-direction: column;
+  }
+  .Title-header {
+    /* header becomes center-aligned for small screens */
+    text-align: center;
+  }
+  .Title-header-name {
+    /* smaller name font for small screens */
+    font-size: 2em;
+  }
+}
