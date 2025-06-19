@@ -6,6 +6,9 @@
   /* dimensions and spacing */
   max-width: 100%;
   padding: 1em;
+
+  /* color gradient */
+  background-image: linear-gradient(to bottom, #F2F3D9, #F2F0Ef);
 }
 
 .AboutMe-Content {

@@ -1,6 +1,5 @@
 .App {
   /* Set default colors for app */
-  background-image: linear-gradient(to right, #DECDF5, #DECDF5);
-  background-color: #F8F1FF; /* fallback for browsers that don't support gradients */
+  background-color: #F2F0Ef;
   color: #1A1F16;
 }
