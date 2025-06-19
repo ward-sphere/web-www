@@ -5,7 +5,7 @@
 
   /* dimensions and spacing */
   max-width: 100%;
-  padding: 1em;
+    padding: 10em 1em 5em;
 
   /* color gradient */
   background-image: linear-gradient(to bottom, #F2F3D9, #F2F0Ef);
@@ -13,8 +13,8 @@
 
 .AboutMe-Content {
   /* simple text div */
-  background-color: #F2F3D9;
   border-radius: 1.5%;
+  font-size: 1.25em;
   text-align: center;
 
   /* dimensions and spacing */

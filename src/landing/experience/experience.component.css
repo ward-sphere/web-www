@@ -5,25 +5,25 @@
 
     /* dimensions and spacing */
     max-width: 100%;
-    padding: 1em;
+    padding: 10em 1em;
 
   /* color gradient */
   background-image: linear-gradient(to bottom, #F2F0Ef, #F8F1FF);
 }
 
 .Experience-content {
-    /* content as col-style flexbox in resume format */
-    display: flex;
-    flex-direction: column;
+  /* content as col-style flexbox in resume format */
+  display: flex;
+  flex-direction: column;
 
-    /* simple styling */
-    text-align: left;
-    background-color: #F2F3D9;
-    border-radius: 1.5%;
+  /* simple styling */
+  text-align: left;
+  border-radius: 1.5%;
+  font-size: 1.25em;
 
-    /* dimensions and spacing */
-    max-width: 60%;
-    padding: 1em;
+  /* dimensions and spacing */
+  max-width: 60%;
+  padding: 1em;
 }
 
 .Experience-header {
