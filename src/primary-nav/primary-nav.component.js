@@ -1,3 +1,5 @@
+import LoginButton from './login/login.component';
+
 import './primary-nav.component.css'
 
 function PrimaryNav() {
@@ -5,7 +7,7 @@ function PrimaryNav() {
         <div class="PrimaryNav">
             <div class="PrimaryNav-content">
                 <div class="PrimaryNav-logo">
-                    <img src="/logo48.png" alt="logo" />
+                    <LoginButton />
                 </div>
                 <div class="PrimaryNav-links"></div>
             </div>
