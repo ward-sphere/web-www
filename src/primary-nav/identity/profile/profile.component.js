@@ -12,7 +12,7 @@ function Profile() {
   return (
     <div class="profileWrap">
       <div class="profile">
-        <img class="profile-image" src={user.picture} onClick={ () => { setProfileClicked(!profileClicked); } }/>
+        <img class="profile-image" alt="user profile picture, or initials" src={user.picture} onClick={ () => { setProfileClicked(!profileClicked); } }/>
       </div>
       <ProfileDropdown
         profileClicked={profileClicked}/>

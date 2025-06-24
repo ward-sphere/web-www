@@ -14,17 +14,20 @@
     min-width: calc(100vw / 4);
     max-width: calc(100vw / 3);
     background-color: #D1D5DE;
-    color: #534D56;
     border-radius: 0.5em;
 }
 
-.profile-dropdown a {
+.profile-dropdown button {
+    text-align: left;
+    color: #534D56;
+    border: none;
     width: 100%;
     padding: 0.75em;
     border-radius: 0.5em;
+    background-color: transparent;
 }
 
-.profile-dropdown a:hover {
+.profile-dropdown button:hover {
     background-color: #B7B6C2;
     border-radius: 0.5em;
 }

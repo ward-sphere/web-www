@@ -1,8 +1,13 @@
 .loginLink {
     text-align: center;
+
+    background-color: #B7B6C2;
+    background-color: transparent;
+    border: none;
     padding: 1em;
 }
 
 .loginLink:hover {
     background-color: #B7B6C2;
+    border-radius: 1em;
 }

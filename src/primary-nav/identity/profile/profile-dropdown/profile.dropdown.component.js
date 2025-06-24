@@ -8,11 +8,11 @@ function ProfileDropdown({ profileClicked }) {
     return (
       <div className="dropdown-wrap">
         <div class="profile-dropdown">
-          <a onClick={() => {
+          <button onClick={() => {
             logout({logoutParams: {returnTo: window.location.href}})
           }}>
             Log Out
-          </a>
+          </button>
         </div>
       </div>
 

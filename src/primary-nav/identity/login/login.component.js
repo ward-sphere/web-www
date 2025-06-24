@@ -6,11 +6,11 @@ import './login.component.css'
 const Login = () => {
   const { loginWithRedirect } = useAuth0();
 
-  return <a class="loginLink" onClick={() => loginWithRedirect({
+  return <button class="loginLink" onClick={() => loginWithRedirect({
     authorizationParams: {
       redirect_uri: window.location.origin
     }
-  })}>Log In</a>;
+  })}>Log In</button>;
 };
 
 export default Login;
