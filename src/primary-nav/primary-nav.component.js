@@ -1,5 +1,4 @@
-import AuthenticationContext from './authorization/authentication.context.component';
-
+import IdentityContext from './identity/identity.context.component';
 import './primary-nav.component.css'
 
 function PrimaryNav() {
@@ -7,7 +6,7 @@ function PrimaryNav() {
         <div class="PrimaryNav">
             <div class="PrimaryNav-content">
                 <div class="PrimaryNav-logo">
-                    <AuthenticationContext/>
+                    <IdentityContext/>
                 </div>
                 <div class="PrimaryNav-links"></div>
             </div>

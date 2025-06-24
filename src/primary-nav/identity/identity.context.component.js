@@ -3,7 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import Login from "./login.component";
 import Logout from "./logout.component";
 
-const AuthenticationContext = () => {
+const IdentityContext = () => {
   const { isAuthenticated, isLoading } = useAuth0();
 
   if (isLoading) {
@@ -17,4 +17,4 @@ const AuthenticationContext = () => {
   );
 };
 
-export default AuthenticationContext;
+export default IdentityContext;
