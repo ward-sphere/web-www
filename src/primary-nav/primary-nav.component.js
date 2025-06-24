@@ -6,9 +6,12 @@ function PrimaryNav() {
         <div class="PrimaryNav">
             <div class="PrimaryNav-content">
                 <div class="PrimaryNav-logo">
-                    <IdentityContext/>
+                    <img src="/logo48.png" alt="logo" />
                 </div>
                 <div class="PrimaryNav-links"></div>
+                <div class="PrimaryNav-identity">
+                    <IdentityContext/>
+                </div>
             </div>
         </div>
     );
