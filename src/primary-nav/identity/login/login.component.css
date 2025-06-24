@@ -1,0 +1,8 @@
+.loginLink {
+    text-align: center;
+    padding: 1em;
+}
+
+.loginLink:hover {
+    background-color: #B7B6C2;
+}

@@ -6,6 +6,8 @@
     /* set nav colors */
     background-color: #656176; /* fallback */
     background-image: linear-gradient(to bottom right, #656176, #334139);
+
+    color: #F8F1FF;
 }
 
 .PrimaryNav-content {
@@ -20,4 +22,13 @@
     padding: 1em;
     align-items: center;
     justify-content: space-between;
+}
+
+.PrimaryNav-identity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+    max-width: 30%;
 }

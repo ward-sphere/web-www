@@ -1,0 +1,16 @@
+.profileWrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.profile {
+    height: 100%;
+}
+
+.profile-image {
+    max-height: calc(100% - 4px);
+    width: auto;
+    border-radius: 50%;
+    border: white 2px solid;
+}
