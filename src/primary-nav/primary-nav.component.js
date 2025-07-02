@@ -12,8 +12,7 @@ function PrimaryNav() {
                     </Link>
                 </div>
                 <div class="PrimaryNav-links">
-                    <Link to="/education"><button>Education</button></Link>
-                    <Link to="/work"><button>Work</button></Link>
+                    <Link to="/exp"><button>Experience</button></Link>
                 </div>
                 <div class="PrimaryNav-identity">
                     <IdentityContext/>

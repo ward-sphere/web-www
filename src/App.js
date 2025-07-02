@@ -4,6 +4,7 @@ import LandingScreen from './landing/landing-screen.component';
 import PrimaryNav from './primary-nav/primary-nav.component';
 import Education from './experience/component/education.component';
 import Work from './experience/component/work.component';
+import ExperienceComponent from './experience/experience.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={ <LandingScreen/ > }/>
           <Route path="/education" element={ <Education /> } />
           <Route path="/work" element={ <Work /> } />
+          <Route path="/exp" element={ <ExperienceComponent /> } />
         </Routes>
       </BrowserRouter>
     </div>
