@@ -4,6 +4,11 @@
     height: 100%;
 }
 
+.profile-dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
 .profile {
     height: 100%;
 }
