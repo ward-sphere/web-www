@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import LandingScreen from './landing/landing-screen.component';
 import PrimaryNav from './primary-nav/primary-nav.component';
-import Education from './experience/education/education.component';
-import Work from './experience/work/work.component';
+import Education from './experience/component/education.component';
+import Work from './experience/component/work.component';
 
 function App() {
   return (

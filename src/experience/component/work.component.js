@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import WorkService from "./work.service";
-import WorkView from "./work.view";
+import WorkService from "../service/work.service";
+import WorkView from "../view/work.view";
 
 function WorkComponent() {
     const [loading, setLoading] = useState(true);

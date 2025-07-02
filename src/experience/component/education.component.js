@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import EducationService from "./education.service";
-import EducationView from "./education.view";
+import EducationService from "../service/education.service";
+import EducationView from "../view/education.view";
 
 function EducationComponent() {
     const [loading, setLoading] = useState(true);
