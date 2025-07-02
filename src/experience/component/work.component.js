@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import WorkService from "../service/work.service";
 import WorkView from "../view/work.view";
 
+const service = WorkService();
+
 function WorkComponent() {
     const [loading, setLoading] = useState(true);
     const [work, setWork] = useState({});
-
-    const service = WorkService();
 
     useEffect(() => {
         service.readAllWork()
@@ -16,13 +16,14 @@ function WorkComponent() {
     }, []);
 
     return (
-        <>
-            {loading ? (
-                <p>Loading...</p>
-            ) : (
-                work.map((item) => (<WorkView dto={ item } />))
-            )}
-        </>
+        <div class="Work">
+            <p class="Work-Header">Work</p>
+            {
+                loading
+                    ? (<p>Loading work...</p>)
+                    : (work.map((item) => <WorkView dto={ item } />))
+            }
+        </div>
     );
 }
 

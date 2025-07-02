@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import EducationService from "../service/education.service";
 import EducationView from "../view/education.view";
 
+const service = EducationService();
+
 function EducationComponent() {
     const [loading, setLoading] = useState(true);
     const [education, setEducation] = useState({});
-
-    const service = EducationService();
 
     useEffect(() => {
         service.readAllEducation()
@@ -16,12 +16,13 @@ function EducationComponent() {
     }, []);
 
     return (
-        <div class="EducationWrapper">
-            {loading ? (
-                <p>Loading...</p>
-            ) : (
-                education.map((item) => (<EducationView dto={ item } />))
-            )}
+        <div class="Education">
+            <p class="Education-Header">Education</p>
+            {
+                loading
+                    ? (<p>Loading education...</p>)
+                    : (education.map((item) => <EducationView dto={ item } />))
+            }
         </div>
     );
 }
