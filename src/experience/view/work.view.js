@@ -1,3 +1,6 @@
+import WorkAchievementComponent from "../component/work.achievement.component";
+import WorkSkillComponent from "../component/work.skill.component";
+
 function WorkView({ dto }) {
     function formatDate(dateString) {
         let date = new Date(Date.parse(dateString));
@@ -25,6 +28,8 @@ function WorkView({ dto }) {
             </div>
             <div class="WorkView-body">
                 <div class="WorkView-body-description">{dto.description}</div>
+                <WorkAchievementComponent workId={ dto.id } />
+                <WorkSkillComponent workId={ dto.id } />
             </div>
         </div>
     );
